@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     int world_size;
     MPI_Comm_size(world_comm, &world_size);
 
-    // Get the rank of the process
+    // Get the rank of the process my edit
     int world_rank;
     MPI_Comm_rank(world_comm, &world_rank);
 
